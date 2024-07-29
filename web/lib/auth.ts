@@ -34,4 +34,8 @@ export const { handlers, signIn, signOut, auth } = NextAuth({
 
     //github o auth
   ],
+
+  pages:{
+    signIn:"/signin"
+  }
 })
